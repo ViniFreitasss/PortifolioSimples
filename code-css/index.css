@@ -48,11 +48,13 @@ body{
 .block li {
     list-style: none;
     display: inline-block;
-    margin: 5px 20px ;
+    margin: 5px 5px ;
     background-color:rgb(216, 216, 216);
     border-radius: 10px;
     text-align: center;
     border: 2px solid #000;
+
+    width: 230px;
 }
 
 article{
@@ -65,5 +67,7 @@ article{
     height: 100px;
     border-radius: 10px;
     position: relative;
-    left: -500px;
+    left: -480px;
 }
+
+#lamp:hover{border: 2px solid rgb(11, 138, 138);}
