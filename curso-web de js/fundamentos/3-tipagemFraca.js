@@ -2,7 +2,7 @@ let qualquer = "Legal"
 console.log(qualquer)
 console.log(typeof qualquer)
 
-/*Javascript possui uma tipagem dinâmica ou seja uma váriavel do tipo number pode passar a ser um string ainda no mesmo código*/
+/*Javascript possui uma tipagem dinâmica ou seja uma variável do tipo number pode passar a ser um string ainda no mesmo código*/
 qualquer = 31
 console.log(qualquer)
 console.log(typeof qualquer)
