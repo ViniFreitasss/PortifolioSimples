@@ -31,3 +31,4 @@ console.log(valoresArray)
 
 //tipo do array
 console.log(typeof valoresArray)
+
