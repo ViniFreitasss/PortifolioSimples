@@ -2,7 +2,7 @@
 
 //Em js o array é heterogeneo
 
-const valoresArray = [7,7.0,9.0,8.9,5.6]
+const valoresArray = [1,2,3,4,5,6,7,8]
 
 console.log(valoresArray[0], valoresArray[3])
 console.log(valoresArray[6]) 
@@ -15,7 +15,7 @@ console.log(valoresArray[6])
 console.log(valoresArray.length)
 
 //função para adicionar elementos no array
-valoresArray.push(7,8)
+valoresArray.push("Estou aqui")
 console.log(valoresArray.length)
 
 // O array em js pode ser heterogeneo porem não é uma boa prática
@@ -23,7 +23,9 @@ valoresArray.push({id: 3}, false, null, 'teste')
 console.log(valoresArray)
 
 // função que retira o último valor do array
-console.log(valoresArray.pop(1))
+console.log(valoresArray.push(4))
+console.log(valoresArray.pop())
+
 
 // deletando valores do array
 delete valoresArray[0]

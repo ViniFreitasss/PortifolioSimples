@@ -17,5 +17,5 @@ console.log('Dicas de como utilizar comentários')
 ou seja, váriasveis que ilustrem o que está ocorrendo, 
 evite criar muitos comentários tenha um código mais limpo*/
 
-
+console.log(typeof Object)
 

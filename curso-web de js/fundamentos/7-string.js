@@ -25,3 +25,14 @@ console.log(escola.replace(3, 'e'))
 
 //função que converte o string em array
 console.log('Ana,Maria,Pedro'.split(','))
+
+// testes
+let termo = 'admissão'
+console.log(termo.indexOf('ã'))
+
+const qualquer = termo.indexOf('ã') 
+
+console.log(termo.charCodeAt(qualquer))
+
+const bebida = 'chá'
+console.log('Gosto de '.concat(bebida).concat(' a tarde.'))
