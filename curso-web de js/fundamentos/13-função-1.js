@@ -18,5 +18,7 @@ imprimiSoma()
  function soma(a, b = 0){
     return a + b
  }
-soma(2, 3)
+
+ //o comando console.log() foi colocado fora da função pois desta vez há um retorno diferente de quando os dados são impressos
  console.log(soma(2,3))
+ 
