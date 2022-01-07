@@ -26,6 +26,6 @@
     var local = 123
     global.console.log(local)
 
-    // Evite o escopo global em projetos que estão sendo versionados qualquer sobescrita da variável pode gerar error
+    // Evite o escopo global em projetos que estão sendo versionados qualquer sobescrita da variável pode gerar erro
 
     // var global ou local
