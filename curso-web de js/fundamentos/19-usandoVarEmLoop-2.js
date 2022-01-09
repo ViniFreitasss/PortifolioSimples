@@ -11,3 +11,4 @@ funcs[8]()
 
 // Esta aula precisará ser revistas em um momento mais avançado do curso.
 
+console.log(funcs.length)
