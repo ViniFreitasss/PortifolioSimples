@@ -14,3 +14,11 @@ console.log(compras(false,true))
 console.log(compras(false,false))
 
 // não existe um operador ou exclusivo para trabalhar com numeros booleanos, porém ele pode ser simulado pela diferença
+// testes
+let {a, b} = {a : 3, b : 1}
+
+const [c,d] = [1,2]
+
+console.log(a,b)
+console.log(c + d)
+

@@ -8,3 +8,4 @@ console.log(resultado(6))
 // primeira:  qualquer expressão booleana: nota >= 7
 // segunda: ? sinal de iniciação do operador ternario
 // terceira: estrutura de verdadeiro e falso dividida por :
+
