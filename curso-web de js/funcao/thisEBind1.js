@@ -6,6 +6,5 @@ const pessoa = {
 }
 pessoa.falar()
 
-
 const falarDePessoa = pessoa.falar.bind(pessoa)
 falarDePessoa()

@@ -1,6 +1,6 @@
 function qualquer(a, b) {
-    a = a || 1
-    b = b || 1
+    a = a || 1                 // Perceba que o a está recebendo a estrutura condicional 'ou', ou seja, se o valor atribuido à 'a' for verdadeiro ele retorna 'a' se for falso retornará 1.
+    b = b || 1 
     return a + b
 }
     // Este possui umas falhas por exemplo ao passar o valor 0 o mesmo retornará 1.
