@@ -1,0 +1,59 @@
+body{
+    background-color: gray;
+    margin:0px;
+    font-size:20px;
+}
+
+header, footer{
+    background-color: white;
+    padding:0;
+    height:100px;
+    line-height:100px;
+    text-align:center;
+    clear: left;
+}
+
+.block{
+    width:	500px;
+    height: 500px;
+    background-color: silver;
+    border-radius:20px;
+    text-align: center;
+    line-height:250px;
+    margin: 20px;
+    float:left;
+}
+
+.other-blocks{
+    width:500px;
+    height: 500px;
+    border-radius:20px;
+    background-color: peachpuff;
+    margin: 20px;
+    float:left;
+}
+
+
+/*inicio-BARRA-DE-BUSCA*/
+
+#barra-busca{
+    display: inline-block;
+    position: relative;
+    top: -90px;
+    left: 500px;
+    background-color:teal;
+    border: solid 2px
+}
+#barra{
+    size: 40px;
+    padding:10px;
+    border-style:none;
+    
+}
+#botao{
+    width: 40px;
+    height: 40px;
+    float: right;
+}
+
+/*fim-BARRA-DE-BUSCA*/
