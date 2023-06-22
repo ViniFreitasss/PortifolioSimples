@@ -1,0 +1,52 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body{
+	background-color: #ffffff;
+}
+
+.panel{
+	width: 500px;
+	height: 500px;
+	border-radius: 10px;
+}
+
+.modal{
+	position: absolute;
+	transition: all .5s;
+}
+
+#container{
+	position: relative;
+	margin: 50px auto;
+	background-color: #ccc;
+	border: outset;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+#startScreen{
+	background: url('../img/start.png');
+	opacity: 1;
+	z-index: 1;
+}
+
+#overScreen{
+	background: url('../img/over.png');
+	opacity: 0;
+	z-index: -1;
+}
+
+.tile{
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	transition: left .5s, top .5s;
+}
+
+.tile:hover{
+	border: inset;
+	border-radius: 10px;
+}
