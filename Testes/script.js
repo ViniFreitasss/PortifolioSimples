@@ -17,9 +17,6 @@ function onDragStart(event) {
     const id = event
       .dataTransfer
       .getData('text');
-      const draggableElement = document.getElementById(id);
-      const dropzone = event.target;
-      dropzone.appendChild(draggableElement);
   }
 
  
