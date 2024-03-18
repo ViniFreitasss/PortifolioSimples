@@ -1,1 +1,1 @@
-O "PortifólioSimples" tem o intuíto de armazenar testes e aulas.
+O "PortifólioSimples" tem o intuito de armazenar testes e aulas.
